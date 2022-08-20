@@ -1,0 +1,32 @@
+body {
+    font-family: open sans,sans-serif;
+    color: #FFF;
+    text-align: center;
+}
+main {
+    z-index: 5;
+    position: relative;
+}
+.main-header {
+    font-weight: 900;
+    font-size: 4em;
+    margin: 0.5em 0;
+}
+
+.section-header {
+    font-family: 'lato',sans-serif;
+    font-size: 1.875em;
+    margin: 0.25em 0;
+}
+
+.header-gradient {
+    background: -webkit-linear-gradient(white, #38495a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-item--container {
+    max-height: 7.5rem;
+    padding: 1rem;
+}
