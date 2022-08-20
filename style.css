@@ -9,10 +9,15 @@ body {
     text-align: center;
 }
 main {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+main section, main h1 {
+    align-self: center;
     z-index: 5;
     position: relative;
     max-width: 1024px;
-    margin: 0 auto;
 }
 .main-header {
     font-weight: 900;
@@ -84,4 +89,9 @@ main {
     font-size: 20px;
     line-height: 150%;
     color: #70f3a9;
+}
+
+.buttons-container {
+    gap: 30px;
+    display: flex;
 }
